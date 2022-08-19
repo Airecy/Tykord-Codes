@@ -1,0 +1,1 @@
+Get-ADUser -filter * -properties passwordlastset, passwordneverexpires, passwordexpired | sort-object name | select-object Name, passwordlastset, passwordneverexpires, passwordexpired  | Export-csv -path c:\password-status.csv
