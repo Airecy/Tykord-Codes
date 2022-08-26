@@ -1,8 +1,8 @@
 ﻿Param (
-	[Parameter(Mandatory=$true)][string]$username
+	[Parameter(Mandatory=$true)][string]$Username
 )
 
-$user = Get-ADUser -Identity $username -Properties pwdlastset
+$user = Get-ADUser -Identity $Username -Properties pwdlastset
 
 If ($user) {
 	$user.pwdlastset = 0
