@@ -6,7 +6,7 @@ $UPName = $UsernameArray[0].Substring(0,1) + $UsernameArray[1] + "@adaptho.local
 $email = $UsernameArray[0].Substring(0,1) + $UsernameArray[1] + "@haltonadapt.org"
 $Homedir = "\\192.168.0.235\users\" + $UserName
 $HomeLetter = "Z:"
-$SMTP1 = "'SMTP:" + $email + "'"
+$SMTP1 = "SMTP:" + $email
 $ProxyAD = @($SMTP1)
 $OUofUser = "OU=" + $OU + ",OU=SBSUsers,OU=Users,OU=MyBusiness,DC=ADAPTHO,DC=local"
 $ScriptPath = "adapt.bat"

@@ -6,10 +6,10 @@ $UPName = $UsernameArray[0].Substring(0,1) + $UsernameArray[1] + "@shh.local"
 $email = $UsernameArray[0] + $UsernameArray[1].Substring(0,1) + "@supporthouse.ca"
 $Homedir = "\\192.168.0.235\users\" + $UserName
 $HomeLetter = "Z:"
-$SMTP1 = "'SMTP:" + $email + "'"
-$SMTP2 = "'smtp:" + $UserName + "@shhalton.org'"
-$SMTP3 = "'smtp:" + $UserName + "@shhalton.mail.onmicrosoft.com'"
-$SMTP4 = "'smtp:" + $UserName + "@supporthouse.ca'"
+$SMTP1 = "SMTP:" + $email
+$SMTP2 = "smtp:" + $UserName + "@shhalton.org"
+$SMTP3 = "smtp:" + $UserName + "@shhalton.mail.onmicrosoft.com"
+$SMTP4 = "smtp:" + $UserName + "@supporthouse.ca"
 $ProxyAD = @($SMTP1, $SMTP2, $SMTP3, $SMTP4)
 $OUofUser = "OU=" + $OU + ",OU=Users,OU=MyBusiness,DC=SHH,DC=local"
 $ScriptPath = "shh.bat"
