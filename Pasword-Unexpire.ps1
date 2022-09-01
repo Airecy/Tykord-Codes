@@ -3,7 +3,7 @@
 
 $user = $(try {Get-ADUser -Identity $Username -Properties pwdlastset} catch {$null})
 
-If ($user -ne $null) {
+If ($null -ne $user) {
 	$user.pwdlastset = 0
 	Set-ADUser -Instance $user
 	$user.pwdlastset = -1
