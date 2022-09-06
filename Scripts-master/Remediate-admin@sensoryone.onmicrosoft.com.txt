@@ -1,0 +1,32 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20220121131255
+Username: DESKTOP-NCE2RNF\Owner
+RunAs User: DESKTOP-NCE2RNF\Owner
+Configuration Name: 
+Machine: DESKTOP-NCE2RNF (Microsoft Windows NT 10.0.19042.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+Process ID: 23504
+PSVersion: 5.1.19041.1320
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1320
+BuildVersion: 10.0.19041.1320
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Scripts-master\Remediate-admin@sensoryone.onmicrosoft.com.txt
+PS>TerminatingError(Get-MsolCompanyInformation): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: You must call the Connect-MsolService cmdlet before calling any other cmdlets."
+C:\Scripts-master\Remediate-BreachedAccount.ps1 : This script requires you to be connected to MSOL v1 as a Global 
+Administrator. Run Connect-MsolService first
+    + CategoryInfo          : NotSpecified: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : Microsoft.PowerShell.Commands.WriteErrorException,Remediate-BreachedAccount.ps1
+C:\Scripts-master\Remediate-BreachedAccount.ps1 : This script requires you to be connected to MSOL v1 as a Global Administrator. Run Connect-MsolService first
+    + CategoryInfo          : NotSpecified: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : Microsoft.PowerShell.Commands.WriteErrorException,Remediate-BreachedAccount.ps1
+
+**********************
+Windows PowerShell transcript end
+End time: 20220121131256
+**********************

@@ -1,0 +1,63 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20220128180745
+Username: TYKORD\brianwc
+RunAs User: TYKORD\brianwc
+Configuration Name: 
+Machine: TARDIS-07 (Microsoft Windows NT 10.0.22518.0)
+Host Application: C:\WINDOWS\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Process ID: 14212
+PSVersion: 5.1.22518.1000
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22518.1000
+BuildVersion: 10.0.22518.1000
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+[kacyannkn@clmiss.ca] Mailbox Identity: KacyAnn Knight, Display Name: KacyAnn Knight
+[kacyannkn@clmiss.ca] Forensics functions..
+[kacyannkn@clmiss.ca] Dumping forensics to C:\data\Scripts-master\Forensics\kacyannkn@clmiss.ca\
+Object reference not set to an instance of an object.
+    + CategoryInfo          : NotSpecified: (:) [Get-MobileDeviceStatistics], NullReferenceException
+    + FullyQualifiedErrorId : 
+System.NullReferenceException,Microsoft.Exchange.Management.Tasks.GetMobileDeviceStatistics
+    + PSComputerName        : ps.outlook.com
+Account          Environment TenantId                             TenantDomain AccountType
+-------          ----------- --------                             ------------ -----------
+clmcio@clmiss.ca AzureCloud  1155bfe8-d688-479e-bcaf-972ef333540a clmiss.ca    User
+Transcript started, output file is C:\data\Scripts-master\Remediate-kacyannkn@clmiss.ca.txt
+Object reference not set to an instance of an object.
+    + CategoryInfo          : NotSpecified: (:) [Get-MobileDeviceStatistics], NullReferenceException
+    + FullyQualifiedErrorId : System.NullReferenceException,Microsoft.Exchange.Management.Tasks.GetMobileDeviceStatistics
+    + PSComputerName        : ps.outlook.com
+
+[kacyannkn@clmiss.ca] Remediation beginning..
+[kacyannkn@clmiss.ca] Enabling Auditing..
+[kacyannkn@clmiss.ca] Revoking Refresh Tokens for Object ID 94997fe0-5f8c-4d08-b1c6-3ba06009d900
+[kacyannkn@clmiss.ca] Disabling forwarding rules..
+[kacyannkn@clmiss.ca] Removing Anonymous Calendar Publishing for User..
+[kacyannkn@clmiss.ca] Removing mailbox delegates..
+[kacyannkn@clmiss.ca] Removing Mailbox Forwarding..
+[kacyannkn@clmiss.ca] Disabling ActiveSync Devices..
+
+
+Remediation report for kacyannkn@clmiss.ca
+
+Actions performed
+ - Forensic information dumped
+ - Audit Enabled
+ - Revoked Refresh Tokens
+ - Disabled Forwarding Rules
+ - Remove Calendar Publishing
+ - Removed Mailbox Delegates
+ - Removed Mailbox Forwarding
+ - Disabled Mobile Devices
+
+Additional notes
+
+**********************
+Windows PowerShell transcript end
+End time: 20220128181534
+**********************

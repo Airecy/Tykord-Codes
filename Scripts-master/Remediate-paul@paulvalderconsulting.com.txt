@@ -1,0 +1,60 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20211206143524
+Username: DESKTOP-NCE2RNF\Owner
+RunAs User: DESKTOP-NCE2RNF\Owner
+Configuration Name: 
+Machine: DESKTOP-NCE2RNF (Microsoft Windows NT 10.0.19042.0)
+Host Application: C:\Windows\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Process ID: 22680
+PSVersion: 5.1.19041.1320
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1320
+BuildVersion: 10.0.19041.1320
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Scripts-master\Remediate-paul@paulvalderconsulting.com.txt
+[paul@paulvalderconsulting.com] Mailbox Identity: paul, Display Name: Paul Valder
+[paul@paulvalderconsulting.com] Forensics functions..
+[paul@paulvalderconsulting.com] Dumping forensics to C:\Scripts-master\Forensics\paul@paulvalderconsulting.com\
+Object reference not set to an instance of an object.
+    + CategoryInfo          : NotSpecified: (:) [Get-MobileDeviceStatistics], NullReferenceException
+    + FullyQualifiedErrorId : 
+System.NullReferenceException,Microsoft.Exchange.Management.Tasks.GetMobileDeviceStatistics
+    + PSComputerName        : ps.outlook.com
+Object reference not set to an instance of an object.
+    + CategoryInfo          : NotSpecified: (:) [Get-MobileDeviceStatistics], NullReferenceException
+    + FullyQualifiedErrorId : System.NullReferenceException,Microsoft.Exchange.Management.Tasks.GetMobileDeviceStatistics
+    + PSComputerName        : ps.outlook.com
+
+[paul@paulvalderconsulting.com] Remediation beginning..
+[paul@paulvalderconsulting.com] Enabling Auditing..
+[paul@paulvalderconsulting.com] Revoking Refresh Tokens for Object ID acfd09cd-854b-40c6-b8ee-0de1a2134662
+[paul@paulvalderconsulting.com] Disabling forwarding rules..
+[paul@paulvalderconsulting.com] Removing Anonymous Calendar Publishing for User..
+[paul@paulvalderconsulting.com] Removing mailbox delegates..
+[paul@paulvalderconsulting.com] Removing Mailbox Forwarding..
+[paul@paulvalderconsulting.com] Disabling ActiveSync Devices..
+
+
+Remediation report for paul@paulvalderconsulting.com
+
+Actions performed
+ - Forensic information dumped
+ - Audit Enabled
+ - Revoked Refresh Tokens
+ - Disabled Forwarding Rules
+ - Remove Calendar Publishing
+ - Removed Mailbox Delegates
+ - Removed Mailbox Forwarding
+ - Disabled Mobile Devices
+
+Additional notes
+
+**********************
+Windows PowerShell transcript end
+End time: 20211206143625
+**********************

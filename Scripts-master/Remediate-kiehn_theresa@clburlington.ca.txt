@@ -1,0 +1,66 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20211005170425
+Username: DESKTOP-NCE2RNF\Owner
+RunAs User: DESKTOP-NCE2RNF\Owner
+Configuration Name: 
+Machine: DESKTOP-NCE2RNF (Microsoft Windows NT 10.0.19042.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 16780
+PSVersion: 5.1.19041.1237
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1237
+BuildVersion: 10.0.19041.1237
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Scripts-master\Remediate-kiehn_theresa@clburlington.ca.txt
+[kiehn_theresa@clburlington.ca] Mailbox Identity: kiehn_theresa, Display Name: Kiehn, Theresa
+[kiehn_theresa@clburlington.ca] Forensics functions..
+[kiehn_theresa@clburlington.ca] Dumping forensics to C:\Scripts-master\Forensics\kiehn_theresa@clburlington.ca\
+Object reference not set to an instance of an object.
+    + CategoryInfo          : NotSpecified: (:) [Get-MobileDeviceStatistics], NullReferenceException
+    + FullyQualifiedErrorId : 
+System.NullReferenceException,Microsoft.Exchange.Management.Tasks.GetMobileDeviceStatistics
+    + PSComputerName        : ps.outlook.com
+Object reference not set to an instance of an object.
+    + CategoryInfo          : NotSpecified: (:) [Get-MobileDeviceStatistics], NullReferenceException
+    + FullyQualifiedErrorId : System.NullReferenceException,Microsoft.Exchange.Management.Tasks.GetMobileDeviceStatist
+   ics
+    + PSComputerName        : ps.outlook.com
+
+[kiehn_theresa@clburlington.ca] Remediation beginning..
+[kiehn_theresa@clburlington.ca] Resetting password..
+[kiehn_theresa@clburlington.ca] Enabling MFA
+[kiehn_theresa@clburlington.ca] Enabling Auditing..
+[kiehn_theresa@clburlington.ca] Revoking Refresh Tokens for Object ID 9a086d69-093d-4d44-b210-5b26745353dc
+[kiehn_theresa@clburlington.ca] Disabling forwarding rules..
+[kiehn_theresa@clburlington.ca] Removing Anonymous Calendar Publishing for User..
+[kiehn_theresa@clburlington.ca] Removing mailbox delegates..
+[kiehn_theresa@clburlington.ca] Removing Mailbox Forwarding..
+[kiehn_theresa@clburlington.ca] Disabling ActiveSync Devices..
+
+
+Remediation report for kiehn_theresa@clburlington.ca
+New Password: .ikPtW#U*=
+
+Actions performed
+ - Forensic information dumped
+ - Password Reset
+ - Enabled MFA
+ - Audit Enabled
+ - Revoked Refresh Tokens
+ - Disabled Forwarding Rules
+ - Remove Calendar Publishing
+ - Removed Mailbox Delegates
+ - Removed Mailbox Forwarding
+ - Disabled Mobile Devices
+
+Additional notes
+
+**********************
+Windows PowerShell transcript end
+End time: 20211005172211
+**********************

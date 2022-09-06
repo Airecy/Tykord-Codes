@@ -1,0 +1,62 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20220121141231
+Username: DESKTOP-NCE2RNF\Owner
+RunAs User: DESKTOP-NCE2RNF\Owner
+Configuration Name: 
+Machine: DESKTOP-NCE2RNF (Microsoft Windows NT 10.0.19042.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+Process ID: 13752
+PSVersion: 5.1.19041.1320
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1320
+BuildVersion: 10.0.19041.1320
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Scripts-master\Remediate-alanfine@sensoryone.com.txt
+[alanfine@sensoryone.com] Mailbox Identity: alanfine, Display Name: alanfine@sensoryone.com
+[alanfine@sensoryone.com] Forensics functions..
+[alanfine@sensoryone.com] Dumping forensics to C:\Scripts-master\Forensics\alanfine@sensoryone.com\
+Object reference not set to an instance of an object.
+    + CategoryInfo          : NotSpecified: (:) [Get-MobileDeviceStatistics], NullReferenceException
+    + FullyQualifiedErrorId : 
+System.NullReferenceException,Microsoft.Exchange.Management.Tasks.GetMobileDeviceStatistics
+    + PSComputerName        : ps.outlook.com
+Object reference not set to an instance of an object.
+    + CategoryInfo          : NotSpecified: (:) [Get-MobileDeviceStatistics], NullReferenceException
+    + FullyQualifiedErrorId : System.NullReferenceException,Microsoft.Exchange.Management.Tasks.GetMobileDeviceStatistics
+    + PSComputerName        : ps.outlook.com
+
+[alanfine@sensoryone.com] Remediation beginning..
+[alanfine@sensoryone.com] Enabling MFA
+[alanfine@sensoryone.com] Enabling Auditing..
+[alanfine@sensoryone.com] Revoking Refresh Tokens for Object ID e0d38b19-0e91-4185-be96-637566d13ba1
+[alanfine@sensoryone.com] Disabling forwarding rules..
+[alanfine@sensoryone.com] Removing Anonymous Calendar Publishing for User..
+[alanfine@sensoryone.com] Removing mailbox delegates..
+[alanfine@sensoryone.com] Removing Mailbox Forwarding..
+[alanfine@sensoryone.com] Disabling ActiveSync Devices..
+
+
+Remediation report for alanfine@sensoryone.com
+
+Actions performed
+ - Forensic information dumped
+ - Enabled MFA
+ - Audit Enabled
+ - Revoked Refresh Tokens
+ - Disabled Forwarding Rules
+ - Remove Calendar Publishing
+ - Removed Mailbox Delegates
+ - Removed Mailbox Forwarding
+ - Disabled Mobile Devices
+
+Additional notes
+
+**********************
+Windows PowerShell transcript end
+End time: 20220121141356
+**********************
